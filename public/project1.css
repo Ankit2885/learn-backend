@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+.outterBox{
+    /* background-color: red; */
+    background: #f0f2f5;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background: #f0f2f5;
+    width: 980px;
+    margin: 10px 12px;
+    padding: 0px 10px;
+}
+.right{
+     float: right;
+    /* height: 349px; */
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+
+}
+.left{
+    background-color: blue;
+    float: left;
+}
+.createAccountBtn{
+    text-decoration: none;
+    background-color: #42b72a;
+    width: 196px;
+    height: 48px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 19px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.inputField{
+    height: 64px;
+    width: 364px;
+    padding: 12px 15px;
+    margin: 12px 15px;
+}
+.centerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textFiel{
+    width: 364px;
+    height: 52px;
+    font-size: 17px;
+    padding: 14px 16px;
+    /* width: 330px; */
+}
+.btn{
+    width: 364px;
+    height: 48px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+}
+.forgetBtn{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
